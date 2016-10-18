@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  margin: 0;
+  background: linear-gradient(#000, #222);
+  background-repeat: no-repeat;
+  font-family: 'Libre Franklin', sans-serif; }
+
+#app-container {
+  width: 100%; }
+  #app-container .navTitle {
+    font-size: 40px;
+    color: #D91E18;
+    display: inline-block;
+    z-index: 300; }
+  #app-container .navIcon {
+    font-size: 40px;
+    color: #D91E18;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    position: fixed;
+    z-index: 300; }
+  #app-container .middleContent .whsWtc {
+    padding-top: 60px;
+    color: #FFF;
+    font-size: 35px;
+    padding-left: 60px; }
+  #app-container .middleContent .userHldr {
+    padding-top: 50px;
+    padding-left: 130px; }
+    #app-container .middleContent .userHldr .userProf {
+      width: 20%;
+      color: #DDD;
+      margin: auto; }
+      #app-container .middleContent .userHldr .userProf h3 {
+        text-align: center; }
+    #app-container .middleContent .userHldr .userProf:hover {
+      background: radial-gradient(closest-side at 50% 50%, #D91E18 10%, transparent 85%); }
+  #app-container .middleContent .profJumbo {
+    position: absolute;
+    top: 60px;
+    z-index: 1; }
+    #app-container .middleContent .profJumbo .jumboDesc {
+      float: left;
+      width: 50%;
+      max-height: 250px;
+      color: #EEE;
+      padding: 5px; }
+      #app-container .middleContent .profJumbo .jumboDesc p p {
+        padding-top: 50px;
+        font-size: 20px; }
+    #app-container .middleContent .profJumbo .jumboPic {
+      float: right;
+      width: 50%;
+      padding: 5px; }
+      #app-container .middleContent .profJumbo .jumboPic img {
+        width: 80%; }
+  #app-container .middleContent .profShowsHolder {
+    z-index: 300;
+    bottom: 0;
+    position: relative;
+    margin-top: 40%;
+    background: rgba(20, 20, 20, 0.7); }
+    #app-container .middleContent .profShowsHolder .showPH {
+      width: 15%;
+      margin: 5px;
+      display: inline-block;
+      z-index: 300; }
+
+/*# sourceMappingURL=styles.css.map */

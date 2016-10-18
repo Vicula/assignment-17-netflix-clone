@@ -1,0 +1,116 @@
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+   margin: 0;
+   background: linear-gradient(#000, #222);
+   background-repeat: no-repeat;
+   font-family: 'Libre Franklin', sans-serif;
+
+
+}
+
+#app-container{
+   width: 100%;
+
+   .navTitle {
+      font-size: 40px;
+      color: #D91E18;
+      display: inline-block;
+      z-index: 300;
+   }
+   .navIcon {
+      font-size: 40px;
+      color: #D91E18;
+      top: 0;
+      right: 0;
+      padding: 20px;
+      position: fixed;
+      z-index: 300;
+   }
+
+   .middleContent {
+
+
+
+      .whsWtc {
+         padding-top: 60px;
+         color: #FFF;
+         font-size: 35px;
+         padding-left: 60px;
+      }
+      .userHldr {
+
+         padding-top: 50px;
+         padding-left: 130px;
+         .userProf {
+            width: 20%;
+            color: #DDD;
+            margin: auto;
+
+            h3 {
+               text-align: center;
+            }
+
+         }
+         .userProf:hover {
+            background: radial-gradient(closest-side at 50% 50%, #D91E18 10%,rgba(0, 0, 0, 0) 85%);
+         }
+
+      }
+
+      .profJumbo {
+         position: absolute;
+         top: 60px;
+         z-index: 1;
+         .jumboDesc{
+            float: left;
+            width: 50%;
+            max-height: 250px;
+            color: #EEE;
+            padding: 5px;
+
+            p{
+               p{
+                  padding-top: 50px;
+                  font-size: 20px;
+               }
+            }
+         }
+         .jumboPic{
+            float: right;
+            width: 50%;
+            padding: 5px;
+
+            img{
+               width: 80%;
+
+            }
+         }
+      }
+
+      .profShowsHolder {
+
+         z-index: 300;
+         bottom: 0;
+         position: relative;
+         margin-top: 40%;
+         background: rgba(20, 20, 20, 0.7);
+
+
+         .showPH {
+            width: 15%;
+            margin: 5px;
+            display: inline-block;
+            z-index: 300;
+
+
+         }
+      }
+
+   }
+
+}
